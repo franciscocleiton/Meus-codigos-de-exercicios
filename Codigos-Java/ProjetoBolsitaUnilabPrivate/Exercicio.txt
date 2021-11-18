@@ -1,0 +1,5 @@
+Elabore programa Orientado a Objetos que tenha uma Classe Estudante com os atributos e métodos importantes reconhecidos na Unilab. Uma Classe que Simule a seleção de bolsistas com base nas informações que você definiu com base na sua pesquisa e desenvolvimento das classes. Para ver o funcionamento das demais classes escreva uma Classe de TesteEstudante. O usuário deve fazer a entrada de dados no programa.
+
+Fazer o mesmo processo usando set e get
+
+Nome: Francisco Cleiton da Silva Nascimento / Engenharia de Computação
