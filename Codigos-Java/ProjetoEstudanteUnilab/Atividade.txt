@@ -9,4 +9,3 @@ C. O terceiro método será para selecionar os estudantes que receberão auxíli
 D. Por fim, o quarto método será para mostrar as informações da classe, os atributos e os métodos.
 
 III. Além das classes citadas, você deverá desenvolver também uma classe de teste TestesEstudantes para verificar o funcionamento das outras classes. Nesta classe, você possibilitará que o usuário do programa informe o tamanho do vetor e após, o vetor deverá ser preenchido com os objetos estudantes e seus atributos e métodos. Na etapa final do teste, você deverá mostrar com base nas informações digitadas quais estudantes foram selecionados para cada tipo de auxílio e para a bolsa. Suponha que nesta turma foram cadastrados 32 estudantes.
-
