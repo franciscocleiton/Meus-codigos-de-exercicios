@@ -1,0 +1,17 @@
+Escreva um programa em POO utilizando Java tendo como base a descrição a seguir:
+
+I. O programa deve conter uma superclasse Aluno que deverá ter atributos que melhor representem um aluno da UNILAB, como, por exemplo, nome e/ou nome social, número de matrícula, CPF, endereço, renda familiar, nome de curso, IDE, carga horária de estudo em disciplinas ou disciplinas matriculadas dentre outros. Para cada atributo criado será necessário definir um par de métodos get e set. 
+    A. Esta superclasse terá QUATRO MÉTODOS ABSTRATOS. O primeiro método realizará a seleção de bolsistas;
+    B. O segundo método desta superclasse selecionará os alunos que receberão o auxílio alimentação; 
+    C. O terceiro método será para selecionar os alunos que receberão auxílio transporte;
+    D. Por fim, o quarto método será para mostrar as informações da classe.
+
+II. O programa terá uma subclasse AlunoGrad (que é herdeira da superclasse), na qual deverá ter implementado os métodos abstratos da superclasse citada acima. Os métodos devem ser desenvolvidos conforme as informações apresentadas a seguir.
+    A. O primeiro método realizará a seleção de bolsistas e utilizará como referência o IDE na classificação. Apenas o aluno com maior IDE será aprovado para receber a bolsa. Além disso, a seleção para bolsa considerará apenas o aluno matriculado em todas as disciplinas do semestre;
+    B. O segundo método desta superclasse selecionará os alunos que receberão o auxílio alimentação. Somente receberão tal auxílio, os alunos que tiverem renda familiar abaixo de um salário mínimo (R$ 1.192,40) e estiverem matriculados em no mínimo quatro disciplinas. Nesta seleção o aluno deverá informar se o seu nome social ou o nome original será mostrado na catraca do restaurante universitário; Mostrar o resultado.
+    C. O terceiro método será para selecionar os alunos que receberão auxílio transporte. Apenas podem receber este auxílio os alunos que moram em outras cidades fora da sede da universidade em Redenção e Acarape, bem como os alunos cuja a prefeitura da cidade onde residem não disponibiliza transporte para a universidade. Além disso, a renda familiar não deve ser maior ou igual a um salário mínimo e meio e o aluno deverá estar matrícula em no mínimo quatro disciplinas;
+    D. Por fim, o quarto método será para mostrar as informações da classe, os atributos e os métodos.
+
+III. Além das classes citadas, você deverá desenvolver também uma classe de teste TesteAlunos para verificar o funcionamento das outras classes. Nesta classe, você permitirá que o usuário do programa informe o tamanho do vetor e após, o vetor deverá ser preenchido com os objetos estudantes e seus atributos e métodos. Na etapa final do teste, você deverá mostrar com base nas informações digitadas quais alunos foram selecionados para cada tipo de auxílio e para a bolsa. Suponha que nesta turma foram cadastrados 34 estudantes.
+
+IV. Incluir no mínimo 3 métodos polimórficos no programa.
