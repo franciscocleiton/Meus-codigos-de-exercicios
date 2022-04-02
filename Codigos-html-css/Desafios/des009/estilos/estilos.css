@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+div.volt {
+    line-height: 2cm;
+}
