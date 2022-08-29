@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('Filxgirl.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embeddeb-opentype
+                - truetype-aar (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            background: rosybrown;
+        }
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 5em;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .ass {
+            text-align: left;
+        }
+
+        .edit {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            padding: 40px;
+            transform: translate(-50%, -50%);
+            background: rgba(230, 121, 121, 0.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alice Alves</h1>
+
+    <div class="edit"> <p>Um amor sem explicações <br>
+        onde é feito de brigas e perdões, <br>
+        um amor que nao se separa <br>
+        um amor em que eu sou doido pela mulher amada <br>
+    </p>
+    <p class="ass">Ass: <strong>Francisco Cleiton</strong></p></div>
+</body>
+</html>
